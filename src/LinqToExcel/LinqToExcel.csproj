@@ -7,17 +7,17 @@
     <Version>2.0.0-PRERELEASE-2</Version>
     <Company>Yoder Web Solutions, LLC</Company>
     <Authors>Paul Yoder, Stephen Workman, Edward Halferty</Authors>
-    <Description>Easily retrieve data from spreadsheets and csv files by using LINQ</Description>
+    <Description>A fork of paulyoder/LinqToExcel (Easily retrieve data from spreadsheets and csv files by using LINQ), with the log4net dependency removed.</Description>
     <Copyright>Copyright © Paul Yoder 2019, Edward Halferty 2021</Copyright>
     <PackageLicenseUrl>https://github.com/paulyoder/LinqToExcel/blob/master/License.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/paulyoder/LinqToExcel</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ehalferty/LinqToExcel_fork_no_deps</PackageProjectUrl>
     <PackageTags>Linq Excel spreadsheet csv</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
     <SignAssembly>true</SignAssembly>
     <DelaySign>false</DelaySign>
     <AssemblyOriginatorKeyFile>LinqToExcel.snk</AssemblyOriginatorKeyFile>
-    <RepositoryUrl>https://github.com/paulyoder/LinqToExcel</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ehalferty/LinqToExcel_fork_no_deps</RepositoryUrl>
     <!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
